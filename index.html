@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Anniversary!</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      text-align: center;
+      overflow: hidden;
+    }
+    .container {
+      max-width: 600px;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0.5em 0;
+      color: #ff4081;
+    }
+    .heart {
+      font-size: 4em;
+      color: #ff4081;
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+    .message {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Happy Anniversary!</h1>
+    <p class="message">Here's to all the beautiful memories we've created and to many more to come. I love you more every day, and I'm so grateful for you.</p>
+    <div class="heart">❤️</div>
+  </div>
+</body>
+</html>
